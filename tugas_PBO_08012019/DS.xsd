@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="DS" targetNamespace="http://tempuri.org/DS.xsd" xmlns:mstns="http://tempuri.org/DS.xsd" xmlns="http://tempuri.org/DS.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="DS" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="true" msprop:Generator_DataSetName="DS" msprop:Generator_UserDSName="DS">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="GajiKaryawan" msprop:Generator_TableClassName="GajiKaryawanDataTable" msprop:Generator_TableVarName="tableGajiKaryawan" msprop:Generator_TablePropName="GajiKaryawan" msprop:Generator_RowDeletingName="GajiKaryawanRowDeleting" msprop:Generator_RowChangingName="GajiKaryawanRowChanging" msprop:Generator_RowEvHandlerName="GajiKaryawanRowChangeEventHandler" msprop:Generator_RowDeletedName="GajiKaryawanRowDeleted" msprop:Generator_UserTableName="GajiKaryawan" msprop:Generator_RowChangedName="GajiKaryawanRowChanged" msprop:Generator_RowEvArgName="GajiKaryawanRowChangeEvent" msprop:Generator_RowClassName="GajiKaryawanRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="nama_karyawan" msprop:Generator_ColumnVarNameInTable="columnnama_karyawan" msprop:Generator_ColumnPropNameInRow="nama_karyawan" msprop:Generator_ColumnPropNameInTable="nama_karyawanColumn" msprop:Generator_UserColumnName="nama_karyawan" type="xs:string" minOccurs="0" />
+              <xs:element name="nama_jabatan" msprop:Generator_ColumnVarNameInTable="columnnama_jabatan" msprop:Generator_ColumnPropNameInRow="nama_jabatan" msprop:Generator_ColumnPropNameInTable="nama_jabatanColumn" msprop:Generator_UserColumnName="nama_jabatan" type="xs:string" minOccurs="0" />
+              <xs:element name="no_hp" msprop:Generator_ColumnVarNameInTable="columnno_hp" msprop:Generator_ColumnPropNameInRow="no_hp" msprop:Generator_ColumnPropNameInTable="no_hpColumn" msprop:Generator_UserColumnName="no_hp" type="xs:string" minOccurs="0" />
+              <xs:element name="tempat_lahir" msprop:Generator_ColumnVarNameInTable="columntempat_lahir" msprop:Generator_ColumnPropNameInRow="tempat_lahir" msprop:Generator_ColumnPropNameInTable="tempat_lahirColumn" msprop:Generator_UserColumnName="tempat_lahir" type="xs:string" minOccurs="0" />
+              <xs:element name="tanggal_lahir" msprop:Generator_ColumnVarNameInTable="columntanggal_lahir" msprop:Generator_ColumnPropNameInRow="tanggal_lahir" msprop:Generator_ColumnPropNameInTable="tanggal_lahirColumn" msprop:Generator_UserColumnName="tanggal_lahir" type="xs:string" minOccurs="0" />
+              <xs:element name="jenis_kelamin" msprop:Generator_ColumnVarNameInTable="columnjenis_kelamin" msprop:Generator_ColumnPropNameInRow="jenis_kelamin" msprop:Generator_ColumnPropNameInTable="jenis_kelaminColumn" msprop:Generator_UserColumnName="jenis_kelamin" type="xs:string" minOccurs="0" />
+              <xs:element name="status" msprop:Generator_ColumnVarNameInTable="columnstatus" msprop:Generator_ColumnPropNameInRow="status" msprop:Generator_ColumnPropNameInTable="statusColumn" msprop:Generator_UserColumnName="status" type="xs:string" minOccurs="0" />
+              <xs:element name="jml_anak" msprop:Generator_ColumnVarNameInTable="columnjml_anak" msprop:Generator_ColumnPropNameInRow="jml_anak" msprop:Generator_ColumnPropNameInTable="jml_anakColumn" msprop:Generator_UserColumnName="jml_anak" type="xs:string" minOccurs="0" />
+              <xs:element name="alamat" msprop:Generator_ColumnVarNameInTable="columnalamat" msprop:Generator_ColumnPropNameInRow="alamat" msprop:Generator_ColumnPropNameInTable="alamatColumn" msprop:Generator_UserColumnName="alamat" type="xs:string" minOccurs="0" />
+              <xs:element name="jml_gaji_pokok" msprop:Generator_ColumnVarNameInTable="columnjml_gaji_pokok" msprop:Generator_ColumnPropNameInRow="jml_gaji_pokok" msprop:Generator_ColumnPropNameInTable="jml_gaji_pokokColumn" msprop:Generator_UserColumnName="jml_gaji_pokok" type="xs:string" minOccurs="0" />
+              <xs:element name="gajiKotor" msprop:Generator_ColumnVarNameInTable="columngajiKotor" msprop:Generator_ColumnPropNameInRow="gajiKotor" msprop:Generator_ColumnPropNameInTable="gajiKotorColumn" msprop:Generator_UserColumnName="gajiKotor" type="xs:string" minOccurs="0" />
+              <xs:element name="jml_tunjangan" msprop:Generator_ColumnVarNameInTable="columnjml_tunjangan" msprop:Generator_ColumnPropNameInRow="jml_tunjangan" msprop:Generator_ColumnPropNameInTable="jml_tunjanganColumn" msprop:Generator_UserColumnName="jml_tunjangan" type="xs:string" minOccurs="0" />
+              <xs:element name="pajak" msprop:Generator_ColumnVarNameInTable="columnpajak" msprop:Generator_ColumnPropNameInRow="pajak" msprop:Generator_ColumnPropNameInTable="pajakColumn" msprop:Generator_UserColumnName="pajak" type="xs:string" minOccurs="0" />
+              <xs:element name="upah_lembur" msprop:Generator_ColumnVarNameInTable="columnupah_lembur" msprop:Generator_ColumnPropNameInRow="upah_lembur" msprop:Generator_ColumnPropNameInTable="upah_lemburColumn" msprop:Generator_UserColumnName="upah_lembur" type="xs:string" minOccurs="0" />
+              <xs:element name="jml_lembur" msprop:Generator_ColumnVarNameInTable="columnjml_lembur" msprop:Generator_ColumnPropNameInRow="jml_lembur" msprop:Generator_ColumnPropNameInTable="jml_lemburColumn" msprop:Generator_UserColumnName="jml_lembur" type="xs:string" minOccurs="0" />
+              <xs:element name="gajiBersih" msprop:Generator_ColumnVarNameInTable="columngajiBersih" msprop:Generator_ColumnPropNameInRow="gajiBersih" msprop:Generator_ColumnPropNameInTable="gajiBersihColumn" msprop:Generator_UserColumnName="gajiBersih" type="xs:string" minOccurs="0" />
+              <xs:element name="username" msprop:Generator_ColumnVarNameInTable="columnusername" msprop:Generator_ColumnPropNameInRow="username" msprop:Generator_ColumnPropNameInTable="usernameColumn" msprop:Generator_UserColumnName="username" type="xs:string" minOccurs="0" />
+              <xs:element name="password" msprop:Generator_ColumnVarNameInTable="columnpassword" msprop:Generator_ColumnPropNameInRow="password" msprop:Generator_ColumnPropNameInTable="passwordColumn" msprop:Generator_UserColumnName="password" type="xs:string" minOccurs="0" />
+              <xs:element name="level" msprop:Generator_ColumnVarNameInTable="columnlevel" msprop:Generator_ColumnPropNameInRow="level" msprop:Generator_ColumnPropNameInTable="levelColumn" msprop:Generator_UserColumnName="level" type="xs:string" minOccurs="0" />
+              <xs:element name="sts" msprop:Generator_ColumnVarNameInTable="columnsts" msprop:Generator_ColumnPropNameInRow="sts" msprop:Generator_ColumnPropNameInTable="stsColumn" msprop:Generator_UserColumnName="sts" type="xs:string" minOccurs="0" />
+              <xs:element name="bulan" msprop:Generator_ColumnVarNameInTable="columnbulan" msprop:Generator_ColumnPropNameInRow="bulan" msprop:Generator_ColumnPropNameInTable="bulanColumn" msprop:Generator_UserColumnName="bulan" type="xs:string" minOccurs="0" />
+              <xs:element name="tahun" msprop:Generator_ColumnVarNameInTable="columntahun" msprop:Generator_ColumnPropNameInRow="tahun" msprop:Generator_ColumnPropNameInTable="tahunColumn" msprop:Generator_UserColumnName="tahun" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
